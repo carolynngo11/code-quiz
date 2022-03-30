@@ -49,6 +49,9 @@ ul {
   }
 
 #optionA, #optionB, #optionC, #optionD {
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
     margin-top: 10px;
 }
