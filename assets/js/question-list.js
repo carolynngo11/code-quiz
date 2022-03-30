@@ -51,17 +51,4 @@ var quizQuestions = [
     answer: "A"
 },
 
-{
-    question: "Question?",
-
-    options: {
-    optionA: "A",
-    optionB: "B",
-    optionC: "C",
-    optionD: "D"
-    },
-    
-    answer: "B"
-},
-
 ];

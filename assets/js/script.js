@@ -1,7 +1,7 @@
 // timer function variables
 var timeEl = document.querySelector(".time");
 var mainEl = document.getElementById("main");
-var secondsLeft = 101;
+var secondsLeft = 3;
 
 // quiz variables
 var questionsEl = document.getElementById("question");
@@ -10,7 +10,6 @@ var optionAEl = document.getElementById("optionA");
 var optionBEl = document.getElementById("optionB");
 var optionCEl = document.getElementById("optionC");
 var optionDEl = document.getElementById("optionD");
-var questionIndex = 0;
 
 function setTime() {
   var timerInterval = setInterval(function() {
@@ -27,13 +26,7 @@ function setTime() {
 }
 
 function questionList() {
-  var questionIndex = quizQuestions[currentQuestionIndex];
-  question.innerText = Questions[id].q;
-
-  optionAEl.innerText = questionIndex.optionA;
-  optionBEl.innerText = questionIndex.optionB;
-  optionCEl.innerText = questionIndex.optionC;
-  optionDEl.innerText = questionIndex.optionD;
+  
 }
 
 function gameoverMessage() {

@@ -26,8 +26,8 @@ ul {
 }
 
 #startup, .quizQuestions, #gameoverScreen{
-    text-align: center;
-    position: absolute;
+    text-align:center;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -55,4 +55,22 @@ ul {
 
 .time {
     margin-right: 20px;
+}
+
+#highscores{
+    text-align:center;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#backBtn, #clearScore {
+    text-align:center;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
