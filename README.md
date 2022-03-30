@@ -1,7 +1,7 @@
 # Code Quiz
 
 # Task
-The assignment asks to start coding from scratch in order to build a quiz with coding questions and implement the things from learning web API's.
+The assignment asks to start coding from scratch in order to build a quiz with coding questions and implement prior knowledge from learning web API's.
 
 # Changed/Edits That Were Made:
 - Added multiple HTML and Java files
