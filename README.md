@@ -15,6 +15,7 @@ The assignment asks to start coding from scratch in order to build a quiz with c
 - Added question list in another Java script
 - Added CSS styling
 - Added game over screen
+- Added high score screen
 
 ![passsword-generator-screenshot](https://user-images.githubusercontent.com/99929883/160530907-482b4e3c-7e66-4667-876f-98be7805f203.jpg)
 
