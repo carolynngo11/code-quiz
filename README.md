@@ -17,6 +17,6 @@ The assignment asks to start coding from scratch in order to build a quiz with c
 - Added game over screen
 - Added high score screen
 
-![passsword-generator-screenshot](https://user-images.githubusercontent.com/99929883/160530907-482b4e3c-7e66-4667-876f-98be7805f203.jpg)
+![code-quiz-screenshot](https://user-images.githubusercontent.com/99929883/160746216-283be031-bebe-4b5b-9627-d97aeadb39d6.JPG)
 
 Deployment Application Link: https://carolynngo11.github.io/code-quiz/
