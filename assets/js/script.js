@@ -1,7 +1,7 @@
 // timer function variables
 var timeEl = document.querySelector(".time");
 var mainEl = document.getElementById("main");
-var secondsLeft = 3;
+var secondsLeft = 4;
 
 // quiz variables
 var questionsEl = document.getElementById("question");
