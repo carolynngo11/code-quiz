@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+    
+    <title>Coding Quiz</title>
+    
 </head>
 <body>
-    <p>quiz questions</p>
+
+    <nav class="navbar">
+        <ul>
+            <li class="float-left"><a href="highscore.html" style="text-decoration: none;">View Highscores</a></li>
+        </ul>
+
+    <h1 class="time" style="text-align:right;"></h1></li>
+    <div id="main"></div>
+
+    </nav>
+
+    <div class="quiz-questions"><h3>Questions Placeholder</h3>
+        <button id="option-a" onclick="checkAnswer('a')">A</button>
+        <button id="option-b" onclick="checkAnswer('b')">B</button>
+        <button id="option-c" onclick="checkAnswer('c')">C</button>
+        <button id="option-d" onclick="checkAnswer('d')">D</button>
+    </div>
+    
+    
+    <script src="assets\js\script.js"></script>
+
 </body>
 </html>

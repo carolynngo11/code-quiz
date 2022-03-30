@@ -1,14 +1,26 @@
 var timeEl = document.querySelector(".time");
-var secondsLeft = 90;
+var mainEl = document.getElementById("main");
+
+var secondsLeft = 91;
 
 function setTime() {
-    var timerInterval = setInterval(function() {
-      secondsLeft--;
-      timeEl.textContent = secondsLeft + " seconds left";
-  
-      if(secondsLeft === 0) {
-        clearInterval(timerInterval);
-      }
-  
-    }, 1000);
-  }
+  var timerInterval = setInterval(function() {
+    secondsLeft--;
+    timeEl.textContent = secondsLeft + " seconds left.";
+
+    if(secondsLeft === 0) {
+      clearInterval(timerInterval);
+      gameoverMessage();
+      window.location.href = 'gameover.html';
+    }
+
+  }, 1000);
+}
+
+function gameoverMessage() {
+  timeEl.textContent = " ";
+  var imgEl = document.createElement("img");
+  imgEl.setAttribute("src", "gameover.html");
+}
+
+setTime();
