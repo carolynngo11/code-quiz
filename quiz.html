@@ -21,17 +21,23 @@
 
     </nav>
 
+    <div class="panel">
+        <div class="result">
+    </div>
+
     <div class="quizQuestions">
-        <h3 id="question">Questions Placeholder</h3>
-        <button id="optionA" onclick="checkAnswer('a')">A</button>
-        <button id="optionB" onclick="checkAnswer('b')">B</button>
-        <button id="optionC" onclick="checkAnswer('c')">C</button>
-        <button id="optionD" onclick="checkAnswer('d')">D</button>
+        <div id="question">Questions Placeholder</div>
+        <button id="optionA" onclick="answer('a')">A</button>
+        <button id="optionB" onclick="answer('b')">B</button>
+        <button id="optionC" onclick="answer('c')">C</button>
+        <button id="optionD" onclick="answer('d')">D</button>
+
+        <div id="result"></div>
+
     </div>
     
-    
     <script src="assets\js\script.js"></script>
-    <script src="assets\js\questions.js"></script>
+    <script src="assets\js\question-list.js"></script>
 
 </body>
 </html>
